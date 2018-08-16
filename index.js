@@ -1,8 +1,9 @@
 // Write your code in this file!
 
-let currentUser = "Taryn"
+let currentUser = "Taryn";
 
-let welcomeMessage = 'Welcome to Flatbook, ' + currentUser.toUpperCase() "!"
+let welcomeMessage = 'Welcome to Flatbook, ${currentUser}!" ;
 
-let excitedWelcomeMessage = "WELCOME TO FLATBOOK, ${currentUser}!"
+
+let excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
