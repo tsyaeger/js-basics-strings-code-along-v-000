@@ -2,7 +2,7 @@
 
 let currentUser = "Taryn"
 
-let welcomeMessage = 'Welcome to Flatbook, ' + currentUser.toUpperCase() + "!"
+let welcomeMessage = 'Welcome to Flatbook, ' + currentUser.toUpperCase() "!"
 
 let excitedWelcomeMessage = "WELCOME TO FLATBOOK, ${currentUser}!"
 
